@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int is_prime(int candidate){
+    int n = 0;
+    for(n = 2; n < candidate; n++){
+        if(candidate%n == 0)
+            return 0;
+    }
+        return 1;
+}

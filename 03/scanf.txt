@@ -1,0 +1,2 @@
+The & character points to the memory location of a variable/object. Because scanf requires input, it changes the value of a certain variable. as the variable is passed in an argument it needs the memory address of the variable instead of the actual variable so that it may edit its arguments
+
